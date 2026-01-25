@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
-//Name: Unit1Lab.ma
-//Last modified: Sat, Jan 24, 2026 08:02:40 PM
+//Name: Unit1&2.ma
+//Last modified: Sat, Jan 24, 2026 08:04:05 PM
 //Codeset: 1252
 requires maya "2026";
 requires -nodeType "materialxStack" -nodeType "MaterialXSurfaceShader" -dataType "MxDocumentStackData"
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "8FC2E68E-4DED-34EB-D101-28ACC743C1B3";
+fileInfo "UUID" "2D43385D-4385-E93E-EBD8-ECAAB21FCC87";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "B1D8378B-4FC5-C174-C581-0BA9AADECF25";
@@ -3291,4 +3291,4 @@ connectAttr "Book1Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Book2Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Book3Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Book4Shape.iog" ":initialShadingGroup.dsm" -na;
-// End of Unit1Lab.ma
+// End of Unit1&2.ma
