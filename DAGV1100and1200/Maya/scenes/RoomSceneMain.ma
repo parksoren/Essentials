@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
-//Name: Unit1&2.ma
-//Last modified: Mon, Feb 16, 2026 12:33:39 AM
+//Name: RoomSceneMain.ma
+//Last modified: Mon, Feb 16, 2026 12:33:56 AM
 //Codeset: 1252
 requires maya "2026";
 requires -dataType "MxDocumentStackData" "LookdevXMaya" "1.10.0";
@@ -13,7 +13,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "B1992BE6-4B3E-CF27-D91B-A2B93E4F5B86";
+fileInfo "UUID" "2FA2F210-4C3C-7222-0CCB-CFBC574E233E";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "B1D8378B-4FC5-C174-C581-0BA9AADECF25";
@@ -9667,4 +9667,4 @@ connectAttr "BK_Book4Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "BK_Book5Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "Floor1Shape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "LavaLamp1Shape.iog" ":initialShadingGroup.dsm" -na;
-// End of Unit1&2.ma
+// End of RoomSceneMain.ma
